@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text Effects</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bganimation"></div>
+    <div class="container">
+      <h1 class="maintitle">Text Scramble Effects</h1>
+      <p class="subtitle">Let's do some fun with letters</p>
+      <div class="effectsgrid">
+        <div class="effectcard">
+          <h3 class="titleeffect">Matrix Scramble</h3>
+          <div class="scrambletext matrixscramble" id="matrixtext">CLICK TO SCRAMBLE</div>
+        </div>
+        <div class="effectcard">
+          <h3 class="titleeffect">Cyber Scramble</h3>
+          <div class="scrambletext cyberscramble" id="cybertext">DIGITAL WORLD</div>
+        </div>
+        <div class="effectcard">
+          <h3 class="titleeffect">Neon Scramble</h3>
+          <div class="scrambletext neonscramble" id="neontext">NEON LIGHTS</div>
+        </div>
+        <div class="effectcard">
+          <h3 class="titleeffect">Glitch Scramble</h3>
+          <div class="scrambletext glitchscramble" id="glitchtext">ERROR 404</div>
+        </div>
+        <div class="effectcard">
+          <h3 class="titleeffect">Terminal Scramble</h3>
+          <div class="scrambletext terminalscramble" id="terminaltext">system.exe</div>
+        </div>
+        <div class="effectcard">
+          <h3 class="titleeffect">Holographic Scramble</h3>
+          <div class="scrambletext holographicscramble" id="holographictext">HOLOGRAM</div>
+        </div>
+      </div>
+      <div class="panelbuttons">
+        <button class="controlbtn" onclick="scrambleAll()">Scramble All</button>
+        <button class="controlbtn" onclick="setSpeed('fast')">Fast Mode</button>
+        <button class="controlbtn" onclick="setSpeed('slow')">Slow Mode</button>
+        <button class="controlbtn" onclick="setSpeed('normal')">Normal Speed</button>
+        <button class="controlbtn" onclick="randomizeTexts()">Random Texts</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
